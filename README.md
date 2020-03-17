@@ -3,7 +3,7 @@
 
 the webserver boa in dlink-619L firmware 2.06beta have a  stack overflow vulnerability
 
-![image]（https://github.com/hhhhu8045759/dir_619l-buffer-overflow/blob/master/619.png）
+![image](https://github.com/hhhhu8045759/dir_619l-buffer-overflow/blob/master/619.png)
 
 When the router login interface enables graphical verification, the third parameter of the sprintf function in the request /goform/Login, getAuthCode function is the FILECODE parameter, which will copy the parameter to the local variable of the current function, causing a stack overflow and remote code execution.
 
