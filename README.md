@@ -1,16 +1,17 @@
 # dir_619l-buffer-overflow
 
-Vender ：D-Link
+**Vender** ：D-Link
 
-Firmware version:2.06beta
+**Firmware version**:2.06beta
 
-Exploit Author: ys110
+**Exploit Author**: ys110
 
-Vendor Homepage: http://www.dlink.com.cn/
+**Vendor Homepage**: http://www.dlink.com.cn/
 
-Hardware Link:http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-619L
+**Hardware Link**:http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-619L
 
-##Vul detail
+Vul detail
+========
 
 the webserver boa in dlink-619L firmware 2.06beta have a  stack overflow vulnerability
 
